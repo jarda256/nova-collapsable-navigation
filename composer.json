@@ -1,5 +1,5 @@
 {
-    "name": "jarda256/collapsable-navigation",
+    "name": "jarda256/nova-collapsable-navigation",
     "description": "A Laravel Nova tool to make navigation groups collapsable.",
     "keywords": [
         "laravel",
