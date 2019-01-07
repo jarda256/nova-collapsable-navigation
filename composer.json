@@ -1,23 +1,30 @@
 {
     "name": "jarda256/collapsable-navigation",
-    "description": "A Laravel Nova tool.",
+    "description": "A Laravel Nova tool to make navigation groups collapsable.",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
     },
+    "authors": [
+        {
+            "name": "Jaroslav Stoklasa",
+            "email": "stoklasa.jaroslav@icloud.com",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "jarda256\\CollapsableNavigation\\": "src/"
+            "jarda256\\NovaCollapsableNavigation\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "jarda256\\CollapsableNavigation\\ToolServiceProvider"
+                "jarda256\\NovaCollapsableNavigation\\ToolServiceProvider"
             ]
         }
     },
