@@ -1,12 +1,9 @@
 <?php
 
-namespace jarda256\CollapsableNavigation;
+namespace jarda256\NovaCollapsableNavigation;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
-use Illuminate\Support\Facades\Route;
-use Illuminate\Support\ServiceProvider;
-use jarda256\CollapsableNavigation\Http\Middleware\Authorize;
 
 class ToolServiceProvider extends ServiceProvider
 {

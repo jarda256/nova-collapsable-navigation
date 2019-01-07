@@ -1,11 +1,11 @@
 <?php
 
-namespace jarda256\CollapsableNavigation;
+namespace jarda256\NovaCollapsableNavigation;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 
-class CollapsableNavigation extends Tool
+class NovaCollapsableNavigation extends Tool
 {
     /**
      * Perform any tasks that need to happen when the tool is booted.
